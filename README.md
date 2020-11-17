@@ -35,17 +35,16 @@ centres](http://apice.unibo.it/xwiki/bin/view/Publications/RespectScp41)
         **Apice** portal, in order to be able to download and read our
         papers
 -   Or you may look for the many theses on these subjects available on
-    [AMS
-    Tesi](https://amslaurea.unibo.it/cgi/search/simple?q=tucson&_action_search=Search&_order=bytitle&basic_srchtype=ALL&_satisfyall=ALL)
+    [AMS Tesi](https://amslaurea.unibo.it/cgi/search/simple?q=tucson&_action_search=Search&_order=bytitle&basic_srchtype=ALL&_satisfyall=ALL)
 
 [**ReSpecT**](http://apice.unibo.it/xwiki/bin/view/ReSpecT/WebHome): a
 language aimed at programming tuple centres in order to govern the
 *interaction space*
 
 -   A good starting point for developers:
-    [http://apice.unibo.it/xwiki/bin/view/Publications/RespectxComsis15](http://apice.unibo.it/xwiki/bin/view/Publications/RespectxComsis15)
+    <http://apice.unibo.it/xwiki/bin/view/Publications/RespectxComsis15>
 -   Formal semantics:
-    [http://apice.unibo.it/xwiki/bin/view/Publications/RespectEntcs175](http://apice.unibo.it/xwiki/bin/view/Publications/RespectEntcs175)
+    <http://apice.unibo.it/xwiki/bin/view/Publications/RespectEntcs175>
 -   Again, have a look to the many theses about it on AMS Tesi
 
 **Logic Programming as a Service *(LPaaS)***, where students may
@@ -53,25 +52,17 @@ contribute in several ways to our software artifacts concerning the
 LPaaS ecosystem
 
 -   Put it simply, LPaaS leverages a Logic Programming engine (e.g.
-    `tuProlog`) wrapped by a ReSTful web service
+    [`tuProlog`](http://tuprolog.unibo.it/)) wrapped by a ReSTful web service
 -   Some interesting details are provided here:
-    [http://apice.unibo.it/xwiki/bin/view/Publications/LpaasBdcc2](http://apice.unibo.it/xwiki/bin/view/Publications/LpaasBdcc2)
+    <http://apice.unibo.it/xwiki/bin/view/Publications/LpaasBdcc2>
 
 **Blockchain**, where students may contribute in several ways in order
 to improve their (and our) understanding of the **Blockchain** model and
 technology
 
--   Several details about the Blockchain topic have been presented
-    within the course:
-    [http://iol.unibo.it/mod/resource/view.php?id=162951](http://iol.unibo.it/mod/resource/view.php?id=162951)
-
 **[Byzantine] Fault Tolerance *([B]FT)* & State Machine Replication
 *(SMR)***, where students may contribute in several ways in order to
 improve our understanding of the BFT & SMR models and technologies
-
--   Several details about the BFT and SMR topics have been presented
-    within the course:
-    [http://iol.unibo.it/mod/resource/view.php?id=162951](http://iol.unibo.it/mod/resource/view.php?id=162951)
 
 **Language and frameworks for Distributed Systems *(DS)* or Agent
 Oriented Programming *(AOP)***, where students may contribute in several
@@ -86,9 +77,13 @@ scopes of DS, Coordination, and AOP
     -   JetBrains' [MPS](https://www.jetbrains.com/mps/)
     -   Swagger's [Codegen](https://swagger.io/tools/swagger-codegen/)
 
-**Simulation of situated agents**: where students may contribute by
+**Simulation**: where students may contribute by
 creating novel *incarnations* for the [**Alchemist**
 simulator](http://alchemistsimulator.github.io/)
+
+**DevOps**: where students can practice with real-world DevOps technologies such as Docker and Kubernetes
+
+**Lesson Production**: where students can help designing and writing lessons for the future editions of the course
 
 **Technology Know-How**: where students may contribute exploring the
 functioning (and possibly the internal structure) of one or more
@@ -97,7 +92,7 @@ real-world technologies
 The "Tuple Based coordination" category
 ---------------------------------------
 
-This cathegory comprehends the following projects
+This category comprehends the following projects
 
 1.  Designing and implementing a
     [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)
@@ -178,8 +173,6 @@ This cathegory comprehends the following projects
     - XML and XPath
     - whatever you like
 
-12. Design a Kotlin-DSL for Jade-like Agents
-
 The "LPaaS" category
 --------------------
 
@@ -224,13 +217,11 @@ We have four different rearch interestes concerning blockchains:
     asynchrony and time-reactiveness as a first step towards
     *autonomous* smart contracts
 
-    -   More info here:
-        [http://apice.unibo.it/xwiki/bin/view/Theses/BlockchainMaffi2018](http://apice.unibo.it/xwiki/bin/view/Theses/BlockchainMaffi2018)
+    -   More info here: <http://apice.unibo.it/xwiki/bin/view/Theses/BlockchainMaffi2018>
 
 -   Experimenting and reproducing Hyperledger Fabric's **Execute-Order-Validate** architecture over [Tenderfone](http://apice.unibo.it/xwiki/bin/view/Theses/BlockchainMaffi2018)
 
-    -   More info here:
-        [https://arxiv.org/pdf/1801.10228.pdf](https://arxiv.org/pdf/1801.10228.pdf)
+    -   More info here: <https://arxiv.org/pdf/1801.10228.pdf>
 
 -   Port [Tenderfone](http://apice.unibo.it/xwiki/bin/view/Theses/BlockchainMaffi2018) over [2P-Kt](https://github.com/tuProlog/2p-kt)
     - Tenderfone source code: <https://gitlab.com/pika-lab/blockchain/tenderfone/tenderfone-sc>
@@ -303,9 +294,8 @@ Students may choose any of the following consensus algorithms:
     Tolerance](https://people.csail.mit.edu/cowling/hq/hq-osdi06.pdf)
 -   ~~**RAFT**, [Diego Ongaro and John Ousterhout, (2014). In Search of an
     Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)~~
--   [**BFT-Smart**](https://github.com/bft-smart/library)
-
-<!-- ripendi da qui -->
+-   **BFT-Smart** <https://github.com/bft-smart/library>
+-   Google's **Chubby** <https://static.googleusercontent.com/media/research.google.com/it//archive/chubby-osdi06.pdf>
 
 Overviews and surveys are available in order to perform a quick
 evaluation and comparison among the protocols above:
@@ -338,39 +328,80 @@ The "Language & frameworks for DS or AOP" category
 --------------------------------------------------
 
 1.  Design and implement a plugin for Swagger's Codegen aimed at
-    generating Vert.x stubs starting from a Swagger specification file.
-    Differently from [`phiz71`'s
-    plugin](https://github.com/phiz71/vertx-swagger) (which may be used
-    as an example or starting poing) the novel plugin should also
-    support Web Sockets and JWT authentication, other than building
-    stubs adhering to the style proposed in Labs 6-8
+    generating server stubs starting from a Swagger specification file.
+    
+        - Vert.X target
+        - Javalin target
+        - Play target
+        - choose your own target
 
 2.  Design and implement a Domain Specific Language aimed at easing the
-    development of agents adhering to the AOP framework developed in
-    Labs 9-10
+    development of JADE-like agents
 
     -   It is possible to use any one among the following DSL
         engineering technologies: Xtext, MPS, ANTLR
-    -   Notice that this project may require some reactoring effort
-        affecting the code provided in Lab 10
 
-3.  Improving and extending Lab 10's AOP framework, making it support
-    all [FIPA protocols](http://www.fipa.org/repository/ips.php3),
-    similarly to JADE
+4. Design a Kotlin|Scala DSL for Jade-like Agents
 
-The "Simulation of situated agents" category
---------------------------------------------
+
+The "Simulation" category
+-------------------------
 
 1.  Design and implement an Alchemist incarnation aimed at simulating
     situated tuple spaces and, possibly, the [Spatial Tuples
     model](https://link.springer.com/chapter/10.1007/978-3-319-48829-5_12)
+
 2.  Design and implement an Alchemist incarnation aimed at simulating
     situated tuple **centres**
-3.  Design and implement an Alchemist incarnation aimed at simulating
-    situated Agents
 
-The "Technology Know-How" cathegory
------------------------------------
+3.  Design and implement an Alchemist incarnation aimed at simulating
+    JADE-like agents
+
+DevOps category
+---------------
+
+Projects in this category follow a common pattern:
+
+1.  Students choose a **technology** from the list below aimed at setting up clusters of interconnected machines,
+
+0.  They must study it and understand its purpose & functioning,
+    possibly looking for scientific paper describing it
+
+0.  They must figure out and document how to set up a single-machine cluster
+
+0.  They must figure out and document how to set up a multi-machine cluster
+
+0.  They must figure out and document how to set up access control and usage quotas
+
+0.  They must figure out and document how to submit computational jobs to the cluster
+
+0.  They must figure out and document how to submit storage-intensive jobs to the cluster
+
+0.  They must figure out and document how to deploy web-services or super-servers on the cluster
+
+Avalilable technologies:
+
+- [Docker Swarm](https://docs.docker.com/engine/swarm/)
+- [Kubernetes](https://kubernetes.io)
+
+Lesson Production category
+--------------------------
+
+1. Design a lab lesson about __replication__ of Linda tuple spaces
+    - master-slave
+    - crash-tolerant
+    - BFT
+
+0. Design a lab lesson about __federation__ of Linda tuple spaces
+
+0. Design a lab lesson about __sharding__ of Linda tuple spaces
+
+0. Design a lab lesson non-blocking IO
+
+0. Propose your own lab lesson to be designed
+
+The "Technology Know-How" category
+----------------------------------
 
 Projects in this category follow a common pattern:
 
@@ -406,19 +437,17 @@ Projects in this category follow a common pattern:
     -   the problems it DOES NOT solve
     -   etc
 
-aboutllowing technologies: about
+Avalilable technologies:
 
--   [Docker Swarm](https://docs.docker.com/engine/swarm/)
+-   ~~[Docker Swarm](https://docs.docker.com/engine/swarm/)~~
 -   [Traefik](https://traefik.io/)
 -   [Etcd](https://coreos.com/etcd/)
--   [CEPH](https://ceph.com/)
--   [Redis](https://redis.io/)
--   [Lagom](https://www.lagomframework.com/) and, in particular, its
-    [Event
-    Sourcing](https://www.lagomframework.com/documentation/1.4.x/java/ESAdvantage.html)
-    feature
+-   ~~[CEPH](https://ceph.com/)~~
+-   ~~[Redis](https://redis.io/)~~
+-   ~~[Lagom](https://www.lagomframework.com/) and, in particular, its
+    [Event Sourcing](https://www.lagomframework.com/documentation/1.4.x/java/ESAdvantage.html) feature~~
 -   [Apache Flink](https://flink.apache.org/)
--   [Apache Kafka](https://kafka.apache.org/)
+-   ~~[Apache Kafka](https://kafka.apache.org/)~~
 -   [Apache ZooKeeper](https://zookeeper.apache.org/)
 -   [IPFS -- Inteplanetary File System](https://ipfs.io/)
 -   [Storj](https://storj.io/)
@@ -446,7 +475,4 @@ As a rule of thumb consider the following statement:
 > *if your report does not present any problem of the target technology,
 > you are probably missing something*
 
-\
-
-\
 
